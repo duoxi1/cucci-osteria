@@ -1,0 +1,71 @@
+@media screen and (max-width:480px){
+  html{font-size:14px;}
+  #about .wrap,
+  #menu .wrap,
+  #chef .wrap{
+  padding:20px;
+  }
+  .title{
+    margin:10px 0 20px 0;
+  }
+  .title>h1{
+    font-size:30px;
+  }
+  .title>h2{
+    font-size:28px;
+    position:absolute;
+    top:15px;
+    font-style: italic;
+  }
+  .wrap{
+    padding:0 10px;
+  }
+  #main .wrap h1{
+    width:55%;
+    font-size:25px;
+  }
+  #main .wrap .right p{
+    font-size:14px;
+  }
+  #main .wrap .right{
+    height:400px;
+  }
+  #main .right .mainmenu{
+    top:120px;
+    width:40%;
+  }
+  #main .wrap p{
+    top:300px;
+    width:100%;
+    text-align: center;
+  }
+  #main .wrap p:nth-child(3){
+    top:340px;
+  }
+  #main .inside{
+    width:40%;
+    top:20px;
+  }
+  #about .wrap .about_img{
+    margin-top:10px;
+  }
+  #about .wrap{height:300px;}
+  #identity>.wrap{
+    padding:20px 30px;
+  }
+  #identity>.wrap p{
+    font-size:12px;
+  }
+  #menu .wrap li .txt{
+    padding:10px;
+  }
+  #menu .wrap ul{
+    margin-bottom:20px;
+  }
+  #chef .txt{
+    margin-top:20px;
+  }
+  #chef .txt p:first-child{
+    margin-bottom:20px;
+  }
+}

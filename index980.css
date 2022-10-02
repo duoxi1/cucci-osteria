@@ -1,0 +1,47 @@
+@media screen and (max-width:980px){
+  #top .logo{
+    max-width:250px;
+  }
+  #main .wrap h1{
+    width:100%;
+    font-size:45px;
+    margin-top:35px;
+  }
+  #main .inside{
+    top:120px;
+    width:45%;
+  }
+  #main::after,
+  #main::before{
+    display:none;
+  }
+  #main .wrap p{
+    width:50%;
+    top:180px;
+  }
+  #main .wrap p:nth-child(3){
+    top:300px;
+    font-size:18px;
+  }
+  #main .wrap .right{
+    height:800px;
+  }
+
+  #about .wrap .text{
+    width:50%;
+  }
+  #identity>.wrap{
+    padding:50px;
+    width:100%;
+    font-size:18px;
+  }
+  #identity p:last-child{
+    display:none;
+  }
+  #chef .txt{
+    width:45%;
+  }
+  #chef .contents img:first-child{
+    width:50%;
+  }
+}
